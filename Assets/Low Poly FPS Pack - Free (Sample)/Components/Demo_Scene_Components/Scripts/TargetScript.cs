@@ -30,7 +30,8 @@ public class TargetScript : MonoBehaviour {
 		//If the target is hit
 		if (isHit == true) 
 		{
-			Destroy(gameObject);
+			Destroy(this.gameObject);
+			CursorScript.Score++;
 			// if (routineStarted == false) 
 			// {
 			// 	//Animate the target "down"
