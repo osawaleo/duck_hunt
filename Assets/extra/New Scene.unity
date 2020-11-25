@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a17670540eed014a8a61fc8b2898a36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEnemy: {fileID: 100124, guid: 3a5320db60c4f694f9724f4273599524, type: 3}
+  theEnemy: {fileID: 500923989172279332, guid: 948c30b416e090046a809c86011ad08d, type: 3}
 --- !u!1 &824223155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9104256193142182582, guid: b05db20fea9486e4d9f3b6fe4c07c066,
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a17670540eed014a8a61fc8b2898a36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEnemy: {fileID: 100124, guid: 3a5320db60c4f694f9724f4273599524, type: 3}
+  theEnemy: {fileID: 500923989172279332, guid: 948c30b416e090046a809c86011ad08d, type: 3}
 --- !u!114 &824223157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,6 +646,10 @@ PrefabInstance:
     - target: {fileID: 1778574915019774, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
       propertyPath: m_Name
       value: Assault_Rifle_01_FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778574915019774, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1792655263500498, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
       propertyPath: m_IsActive
