@@ -119,6 +119,7 @@ public class AutomaticGunScriptLPFP : MonoBehaviour {
 	public Text currentAmmoText;
 	public Text totalAmmoText;
 	public Text scoreText;
+	public Text lifeText;
 
 	[System.Serializable]
 	public class prefabs
@@ -209,6 +210,7 @@ public class AutomaticGunScriptLPFP : MonoBehaviour {
 	private void Update () {
 
 		scoreText.text = "Score: " + CursorScript.Score.ToString();
+		lifeText.text = "Life: " + CursorScript.PlayerLife.ToString();
 
 		//Aiming
 		//Toggle camera FOV when right click is held down

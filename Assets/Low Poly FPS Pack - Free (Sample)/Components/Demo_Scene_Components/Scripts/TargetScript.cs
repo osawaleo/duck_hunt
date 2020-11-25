@@ -21,6 +21,8 @@ public class TargetScript : MonoBehaviour {
 	public AudioClip downSound;
 
 	public AudioSource audioSource;
+
+	public GameObject player;
 	
 	private void Update () {
 		
@@ -45,6 +47,23 @@ public class TargetScript : MonoBehaviour {
 			// 	StartCoroutine(DelayTimer());
 			// 	routineStarted = true;
 			// } 
+		}
+
+		if (Vector3.Distance(this.transform.position, this.player.transform.position) < 1)
+		{
+			Destroy(this.gameObject);
+			this.CheckPlayerLife();
+			CursorScript.PlayerLife--;
+			this.CheckPlayerLife();
+		}
+	}
+
+	private void CheckPlayerLife () 
+	{
+		if (CursorScript.PlayerLife == 0) 
+		{
+			CursorScript.Score = 0;
+			CursorScript.PlayerLife = 10;
 		}
 	}
 

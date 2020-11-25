@@ -82,6 +82,7 @@ MonoBehaviour:
   upSound: {fileID: 0}
   downSound: {fileID: 0}
   audioSource: {fileID: 0}
+  player: {fileID: 9104256193142182582, guid: b05db20fea9486e4d9f3b6fe4c07c066, type: 3}
 --- !u!64 &6714533533272929843
 MeshCollider:
   m_ObjectHideFlags: 0

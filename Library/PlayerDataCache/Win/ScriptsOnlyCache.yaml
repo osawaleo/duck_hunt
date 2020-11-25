@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - GrenadeScript
     - ImpactScript
     - LookAtCamera
+    - MainMenuScript
     - SpawnEnemy
     - TargetScript
     Unity.Rider.Editor.dll:
@@ -20,11 +21,65 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/extra/Menu Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11136}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 11356}
+    - Class: 114
+      Script: {instanceID: 11740}
+    - Class: 114
+      Script: {instanceID: 12136}
+    - Class: 114
+      Script: {instanceID: 12624}
+    - Class: 114
+      Script: {instanceID: 12972}
+    - Class: 114
+      Script: {instanceID: 36054}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/extra/New Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -75,35 +130,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11136}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11324}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11354}
+      Script: {instanceID: 11326}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11356}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12426}
+      Script: {instanceID: 12412}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 34954}
+      Script: {instanceID: 12624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -157,6 +212,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorScript
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -381,7 +442,7 @@ ScriptsOnlyBuild:
     className: BulletScript
   - hash:
       serializedVersion: 2
-      Hash: 5a53671008ad6f68b0d110f7c70d732d
+      Hash: 960dc7473f4b78e679dd9bf6e07159f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TargetScript
@@ -483,7 +544,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: b9138b71afce0733dcd9116a3b2b7fdb
+      Hash: 6593c85e5d17be999586b3e381893088
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AutomaticGunScriptLPFP
@@ -642,8 +703,9 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CursorScript
+    className: MainMenuScript
   platform: 5
   scenePathNames:
+  - Assets/extra/Menu Scene.unity
   - Assets/extra/New Scene.unity
-  playerPath: C:/Users/osawa/Downloads/build_v2/New Unity Project.exe
+  playerPath: C:/Users/osawa/Downloads/build_final/New Unity Project.exe
